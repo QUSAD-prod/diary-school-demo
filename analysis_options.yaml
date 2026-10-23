@@ -1,0 +1,14 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  exclude:
+    - build/**
+    - android/**
+    - ios/**
+    - web/**
+    - lib/**.g.dart
+
+linter:
+  rules:
+    # Экраны расписания исторически названы в PascalCase (SheduleWeek.dart и т.п.)
+    file_names: false
